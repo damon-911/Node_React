@@ -1,3 +1,26 @@
-node_modules
+# server 파일
+server/node_modules
+server/dev.js
 
-dev.js
+# client 파일
+# dependencies
+cilent/node_modules
+cilent/.pnp
+cilent/.pnp.js
+
+# testing
+cilent/coverage
+
+# production
+cilent/build
+
+# misc
+cilent/.DS_Store
+cilent/.env.local
+cilent/.env.development.local
+cilent/.env.test.local
+cilent/.env.production.local
+
+cilent/npm-debug.log*
+cilent/yarn-debug.log*
+cilent/yarn-error.log*
